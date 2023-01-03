@@ -164,7 +164,7 @@ nav {
   flex-direction: column;
   text-align: center;
   position: absolute;
-  bottom: 45%;
+  bottom: 43%;
 }
 
 .infoSection h4 {
@@ -189,7 +189,6 @@ nav {
 }
 
 .containerCards {
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,15 +197,55 @@ nav {
 .cardOne {
   max-width: 450px;
   height: 530px;
+  display: flex;
   flex-direction: column;
   position: absolute;
-  overflow: hidden;
-  left: 10%;
+  left: 3%;
   bottom: 20%;
-  border: 2px solid rgb(56, 116, 177);
+  border: 4px solid rgb(56, 116, 177);
+  border-style: groove;
   border-radius: 6px;
   background-color: rgb(8, 34, 59);
   opacity: 0.9;
+  filter: drop-shadow(-5px 5px 100px rgb(56, 116, 177));
+  box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+}
+
+.cardTwo {
+  max-width: 450px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 35.5%;
+  bottom: 20%;
+  border: 4px solid rgb(56, 116, 177);
+  border-style: groove;
+  border-radius: 6px;
+  background-color: rgb(8, 34, 59);
+  opacity: 0.9;
+  filter: drop-shadow(-5px 5px 100px rgb(56, 116, 177));
+  box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
+}
+
+.cardThree {
+  max-width: 450px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 3.7%;
+  bottom: 20%;
+  border: 4px solid rgb(56, 116, 177);
+  border-style: groove;
+  border-radius: 6px;
+  background-color: rgb(8, 34, 59);
+  opacity: 0.9;
+  filter: drop-shadow(-5px 5px 100px rgb(56, 116, 177));
   box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
   -webkit-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
   -moz-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
@@ -221,20 +260,21 @@ nav {
 .botCard {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  padding: 2rem;
+  line-height: 2rem;
 }
 
 .botCard h4 {
-  margin: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
   color: whitesmoke;
 }
 
 .botCard p {
-  color: rgb(160, 205, 247);
-  font-size: 1rem;
-  font-weight: bold;
+  padding-top: 1rem;
+  color: rgb(197, 226, 253);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .containerFooter {
@@ -244,23 +284,6 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: black;
-}
-
-.cardTwo {
-  max-width: 450px;
-  height: 530px;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  left: 10%;
-  bottom: 20%;
-  border: 2px solid rgb(56, 116, 177);
-  border-radius: 6px;
-  background-color: rgb(8, 34, 59);
-  opacity: 0.9;
-  box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
-  -webkit-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
-  -moz-box-shadow: 0px 10px 90px 15px rgba(0, 0, 0, 0.75) inset;
 }
 
 .containerFooter ul {
