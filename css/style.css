@@ -62,21 +62,15 @@ nav {
 }
 
 .button {
-  padding: 0.6rem 1.6rem;
+  padding: 0.4rem 1.4rem;
   color: rgb(255, 215, 136);
   border-radius: 6px;
-  border: 1px solid rgb(255, 170, 1);
+  border: 2px rgb(255, 170, 1);
+  border-style: groove;
   cursor: pointer;
   font-size: 0.9rem;
-  font-weight: bold;
-  background-color: rgb(199, 133, 0);
-  box-shadow: 0px 120px 30px 0px rgba(0, 0, 0, 0.75) inset;
-  -webkit-box-shadow: 0px 120px 30px 0px rgba(0, 0, 0, 0.75) inset;
-  -moz-box-shadow: 0px 120px 30px 0px rgba(0, 0, 0, 0.75) inset;
-}
-
-.button:active {
-  background: rgb(255, 232, 185);
+  font-weight: 800;
+  background-color: rgb(44, 29, 0);
 }
 
 .containerMain {
@@ -265,7 +259,7 @@ nav {
 }
 
 .botCard h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   color: whitesmoke;
 }
@@ -275,6 +269,10 @@ nav {
   color: rgb(197, 226, 253);
   font-size: 1.1rem;
   font-weight: 500;
+}
+
+.blizzardLogo {
+  position: absolute;
 }
 
 .containerFooter {
